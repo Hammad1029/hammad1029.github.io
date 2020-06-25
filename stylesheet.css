@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+    font-family: Arial;
+    background-color: rgb(48,48,48);
+}
+
+.navbar {
+    display: flex;
+    margin: 0;
+    height: 8vh;
+    list-style: none;
+    align-items: center;
+    background-color: rgb(31, 31, 31);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li {
+    padding: 20px;
+    font-size: 1.3em;
+}
+
+.navcontact {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.cover {
+    height: 80vh;
+    background-image: url(./img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%; /* what does this mean? */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover h1 {
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+    font-size: 3rem;
+}
+
+.albums {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* what does this mean? */
+    gap: 20px;
+    margin: 0px;
+    padding: 20px 20px 0px 20px;
+}
+
+.albums img {
+    width: 100%; /* what does this mean? */
+    vertical-align: top; /* what does this mean? */
+}
+
+.albums li {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+/**************** RECREATE FOOTER ****************/
+
+footer {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    background-color: rgb(31,31,31);
+}
+
+.contact {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 5px;
+    padding-top: 8px;
+
+}
+
+.contact img {
+    height: 3vh;
+}
+
+h4 {
+    margin: 0px;
+    margin-bottom: 0.5vh;
+    font-weight: 500;
+    padding-right: 20px;
+    color: white;
+}
+
+#push {
+    margin-left: auto;
+    padding-right: 0px;
+    padding-bottom: 5px;
+}
